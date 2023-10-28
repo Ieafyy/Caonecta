@@ -40,4 +40,47 @@ Depois de todas as informações serem tratadas ele retorna um dicionário (que 
 
 <h2>Frontend: JS e Jquery</h2>
 
+A principal função exercida pelo Jquery nesse projeto deve-se ao AJAX, que vem nativo junto do Jquery e permite requisições de forma rápida, prática e simples. 
+
+![image](https://github.com/Ieafyy/Caonecta/assets/70926962/e6eeb7e1-ee08-4b1d-8c93-8a91482d3b45)
+
+Aqui realizei um POST para o endpoint /getdata contendo a data (dt), número de cachorros grande (ncg) e número de cachorros pequeno (ncp). O returno dessa request é justamente o petshop que melhor se adequa aos valores digitados (como dito na explanação sobre o main.py).
+
+Fora isso, o JS foi usado para funções para melhorar a experiência do usuário, como adicionando pequenas animações, validando dados para evitar inputs inconsistenstes e afins.
+-------------------------------------------------------------------------
+
+<h2>Frontend: HTML e CSS</h2>
+
+Agora por fim a parte visual do sistema construido com HTML, CSS e Tailwind CSS.
+
+![image](https://github.com/Ieafyy/Caonecta/assets/70926962/a014a192-144e-40f4-b9a4-9fee6ff34a26)
+-----------------------------------------------------------
+
+<h2>Escolha das tecnologias</h2>
+
+Por deixar em aberto a tecnologia que podia ser usada, fiz minhas escolhas justamente por vivência com tais linguagens. Python é extremamente versatil e é a linguagem que mais possuo domínio, já o framework Flask é muito popular e tido como um dos melhores quando o assunto é web.
+
+JS é o pilar da maioria das aplicações web frontend e Jquery é um framework bem sólido e já há muito esturturado, sendo muito robusto e útil.
+
+HTML e CSS são indispensáveis para o layout da página e escolhi Tailwind CSS por ser prático.
+
+<h2>Fotos</h2>
+
+![image](https://github.com/Ieafyy/Caonecta/assets/70926962/979adc86-973d-412d-bf42-2dcc4d03ea44)
+![image](https://github.com/Ieafyy/Caonecta/assets/70926962/b7de115b-44c7-4421-b608-349c418044f1)
+![image](https://github.com/Ieafyy/Caonecta/assets/70926962/8fae451d-9b75-40cc-9f10-0b2090a6ff81)
+
+O sistema também é responsivo e mantem a forma mesmo no mobile
+
+![mobile](https://github.com/Ieafyy/Caonecta/assets/70926962/73771959-fd7a-4dad-b235-bf5cf73db6fe)
+-------------------------------------------------------------
+
+<h2>Como acessar?</h2>
+
+O sistema está hospedado no servidor da PythonAnywhere e pode ser acessado <a href='http://leafyyyy.pythonanywhere.com/'>por aqui</a>
+
+Caso o servidor por algum motivo apresente alguma instabilidade, o sistema pode ser executado de forma local bastando possuir Python 3.10 e Flask atualizado na máquina. Para isso basta executar o arquivo main.py
+
+
+
 
