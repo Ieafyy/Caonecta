@@ -81,6 +81,9 @@ O sistema está hospedado no servidor da PythonAnywhere e pode ser acessado <a h
 
 Caso o servidor por algum motivo apresente alguma instabilidade, o sistema pode ser executado de forma local bastando possuir Python 3.10 e Flask atualizado na máquina. Para isso basta executar o arquivo main.py
 
+![image](https://github.com/Ieafyy/Caonecta/assets/70926962/70cffd36-6ea6-4a65-bd4b-fd5639527e40)
+
+Após isso só acessar o endereço local http://127.0.0.1:5000 
 
 
 
