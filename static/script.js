@@ -56,15 +56,10 @@ function sender(){
         success: (e) => {
             console.log(e)
 
-            let petshop_e = null
-            let valor_e = null
-            let dist_e = null
-            let dia_s = null
-            
-            petshop_e = e.nome 
-            valor_e = e.valor_dia 
-            dist_e = e.distancia
-            dia_s = e.dia_semana
+            let petshop_e = e.nome 
+            let valor_e = e.valor_dia
+            let dist_e = e.distancia
+            let dia_s = e.dia_semana
 
             $('#petshop-nome').text(petshop_e)
             $('#petshop-valor').text(valor_e.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
