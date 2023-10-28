@@ -5,12 +5,12 @@ from funcs import formatar, comparar_petshops
 
 app = Flask(__name__)
 
-@app.route('/', methods = ['GET', 'POST'])
+@app.route('/', methods = ['GET'])
 def main():
     return render_template('index.html')
 
 
-@app.route('/dataget', methods = ['GET', 'POST'])
+@app.route('/dataget', methods = ['POST'])
 def data_sender():
     if request.method == 'POST':
 
@@ -36,16 +36,13 @@ def data_sender():
         
         petshop_final = comparar_petshops(petshops)
 
+        petshop_sender = {
+            'nome': petshop_final,
+            'distancia': petshops[petshop_final]['distancia'],
+            'valor_dia': petshops[petshop_final]['valor_dia'],
+            'dia_semana': dias[dsemana],
+        }
 
-
-
-        for petshop in petshops:
-            if petshop == petshop_final:
-                petshops[petshop]['escolhido'] = 'SIM'
-                petshops[petshop]['dia_semana'] = dias[dsemana]
-            else:
-                petshops[petshop]['escolhido'] = 'NAO'
-
-        return petshops
+        return petshop_sender
 
 app.run()
