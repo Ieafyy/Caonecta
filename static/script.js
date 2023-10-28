@@ -17,13 +17,11 @@ $(document).ready(function() {
     });
 
     $('#data').change(() => {
-        console.log($('#data').val())
         if($('#data').val() == "") $('#seg-part').fadeOut(500)
         else $('#seg-part').fadeIn(500)
     })
 
     $('#cpequenos, #cgrandes').on('input', () => {
-        console.log($('#cgrandes').val())
         
         let pequenos = $('#cpequenos').val()
         let grandes = $('#cgrandes').val()
@@ -54,7 +52,6 @@ function sender(){
             ncp: $('#cpequenos').val()
         },
         success: (e) => {
-            console.log(e)
 
             let petshop_e = e.nome 
             let valor_e = e.valor_dia
