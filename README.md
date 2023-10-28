@@ -1,6 +1,8 @@
 # Caonecta
 Sistema desenvolvido para o teste prático da empresa DTI Digital
 
+<a href='http://leafyyyy.pythonanywhere.com/'>(acesse rapidamente por aqui!)</a>
+
 Com base no problema informado, foi pedido para desenvolver um sistema na qual dado uma data e a quantidade de cães grandes e pequenos, calcule qual o melhor petshop dentre os informados (Meu Canino Feliz, Vai Rex e ChowChawgas).
 
 Para desenvolvimento do sistema utilizei Python com o framework Flask (backend) e javascript com Jquery (para o frontend). Toda personalização da página foi feita usando HTML e CSS juntamente com o Stylesheet do Tailwind CSS.
