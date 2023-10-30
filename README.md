@@ -3,7 +3,7 @@ Sistema desenvolvido para o teste prático da empresa DTI Digital
 
 <a href='http://leafyyyy.pythonanywhere.com/'>(acesse rapidamente por aqui!)</a>
 
-Com base no problema informado, foi pedido para desenvolver um sistema na qual dado uma data e a quantidade de cães grandes e pequenos, calcule qual o melhor petshop dentre os informados (Meu Canino Feliz, Vai Rex e ChowChawgas). Então apresento a Cãonecta! Minha solução para tal desafio.
+Com base no problema informado, foi pedido para desenvolver um sistema na qual inserido uma data e a quantidade de cães grandes e pequenos, calcule qual o melhor petshop dentre os informados (Meu Canino Feliz, Vai Rex e ChowChawgas). Então apresento a Cãonecta! Minha solução para tal desafio.
 
 Para desenvolvimento do sistema utilizei Python com o framework Flask (backend) e javascript com Jquery (para o frontend). Toda personalização da página foi feita usando HTML e CSS juntamente com o Stylesheet do Tailwind CSS.
 
@@ -48,8 +48,8 @@ A principal função exercida pelo Jquery nesse projeto deve-se ao AJAX, que vem
 
 Aqui realizei um POST para o endpoint /getdata contendo a data (dt), número de cachorros grande (ncg) e número de cachorros pequeno (ncp). O returno dessa request é justamente o petshop que melhor se adequa aos valores digitados (como dito na explanação sobre o main.py).
 
-Fora isso, o JS foi usado para funções para melhorar a experiência do usuário, como adicionando pequenas animações, validando dados para evitar inputs inconsistenstes e afins.
--------------------------------------------------------------------------
+Fora isso, o JS foi usado para funções a fim de melhorar a experiência do usuário, como adicionando pequenas animações, validando dados para evitar inputs inconsistentes e afins.
+
 
 <h2>Frontend: HTML e CSS</h2>
 
@@ -62,7 +62,7 @@ Agora por fim a parte visual do sistema construido com HTML, CSS e Tailwind CSS.
 
 Por deixar em aberto a tecnologia que podia ser usada, fiz minhas escolhas justamente por vivência com tais linguagens. Python é extremamente versatil e é a linguagem que mais possuo domínio, já o framework Flask é muito popular e tido como um dos melhores quando o assunto é web.
 
-JS é o pilar da maioria das aplicações web frontend e Jquery é um framework bem sólido e já há muito esturturado, sendo muito robusto e útil.
+JS é o pilar da maioria das aplicações web frontend e Jquery é um framework bem sólido e já há muito estruturado, sendo muito robusto e útil.
 
 HTML e CSS são indispensáveis para o layout da página e escolhi Tailwind CSS por ser prático.
 
