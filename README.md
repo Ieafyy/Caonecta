@@ -1,7 +1,7 @@
 # Caonecta
 Sistema desenvolvido para o teste prático da empresa DTI Digital
 
-<a href='http://leafyyyy.pythonanywhere.com/'>(acesse rapidamente por aqui!)</a>
+<a href='http://leafyyyy.pythonanywhere.com/'>(acesse rapidamente por aqui!)</a> (obs.: quando o sitema fica muito tempo sem ser acessado ele entra em sleep, quando isso acontece basta recarregar a página)
 
 Com base no problema informado, foi pedido para desenvolver um sistema na qual inserido uma data e a quantidade de cães grandes e pequenos, calcule qual o melhor petshop dentre os informados (Meu Canino Feliz, Vai Rex e ChowChawgas). Então apresento a Cãonecta! Minha solução para tal desafio.
 
